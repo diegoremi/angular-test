@@ -92,8 +92,8 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                     </li>
                     <li class="divider"></li>
                     <li class="copyright">
-                        portugal <a href="https://compodoc.app/" target="_blank" rel="noopener noreferrer">
-                            <img data-src="src/assets/icon.png" class="img-responsive" data-type="compodoc-logo">
+                        Documentation generated using <a href="https://compodoc.app/" target="_blank" rel="noopener noreferrer">
+                            <img data-src="../../src/assets/icon.png" class="img-responsive" data-type="compodoc-logo">
                         </a>
                     </li>
             </ul>
