@@ -1,12 +1,9 @@
 'use strict';
-import icon from '../../src/assets/icon'
 
 customElements.define('compodoc-menu', class extends HTMLElement {
-
     constructor() {
         super();
-        this.isNormalMode = this.getAttribute('mode') === 'normal'
-        this.icon = icon;
+        this.isNormalMode = this.getAttribute('mode') === 'normal';
     }
 
     connectedCallback() {
@@ -96,7 +93,7 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                     <li class="divider"></li>
                     <li class="copyright">
                         Documentation generated using <a href="https://compodoc.app/" target="_blank" rel="noopener noreferrer">
-                            <img data-src="icon" class="img-responsive" data-type="compodoc-logo">
+                            <img data-src="images/compodoc-vectorise.png" class="img-responsive" data-type="compodoc-logo">
                         </a>
                     </li>
             </ul>
