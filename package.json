@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "compodoc": "npx compodoc -p tsconfig.doc.json"
+    "compodoc": "npx compodoc -d ./docs -p tsconfig.doc.json --customFavicon src/favicon.ico --customLogo src/assets/icon.png"
   },
   "private": true,
   "dependencies": {
